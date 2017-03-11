@@ -1,0 +1,168 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{padding: 0;margin: 0;}
+a{
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+}
+
+.left_nav{
+	width: 300px;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #eaeaea;
+	box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    overflow-x: hidden;
+}
+.left_nav h4{
+	color: #333;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	border-bottom: 1px solid #eee;
+	font-weight: normal;
+}
+.left_nav li a{
+	display: block;
+	padding: 0 20px;
+	color: #666;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #eee;
+}
+.left_nav li a:hover{
+	text-decoration: underline;
+}
+.left_nav li a.active{
+	color: #66CCFF;
+	text-decoration: none;
+}
+.right_container{
+	position: relative;
+	/*margin-left: 300px;*/
+	background: #eee;
+	height: 100%;
+	padding: 0 30px 30px 30px;
+	-webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.html_div{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	padding-top: 40px;
+}
+.html_div>h4,.online_view>h4{
+	color: #333;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-weight: normal;
+}
+.html_div .edit{
+	width: 100%;
+	height: 100%;
+}
+.html_div textarea{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #999;
+	box-shadow: 0 0 10px rgba(0,0,0,.3) inset;
+	color: #666;
+	font-size: 14px;
+	/*min-height: 500px;*/
+	overflow: auto;
+}
+.online_view{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	padding: 40px 0px 0px 10px;
+}
+.online_view>h4{
+	left: 10px;
+	width: 100%;
+}
+.online_view>h4 a{
+	position: absolute;
+	line-height: 40px;
+	height: 40px;
+	color: #999;
+	font-size: 14px;
+	font-weight: normal;
+	right: 10px;
+}
+.online_view>h4 a:hover{
+	text-decoration: underline;
+}
+.online_view iframe{
+	border: 1px solid #ddd;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.html_code{
+	display: none;
+}
+.left_operate{
+	color: #666;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	opacity: 0.5;
+}
+.left_operate:hover,.left_operate:active{
+	opacity: 0.9;
+}
+
+.wrapper.close .left_nav{
+	width: 0;
+	opacity: 0;
+}
+.wrapper.close .right_container{
+	margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
